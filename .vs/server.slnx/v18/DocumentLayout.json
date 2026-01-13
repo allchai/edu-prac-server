@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\packs\\College\\3course\\EduPrac\\1\\server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F3EE6B2D-0B19-306C-2C68-AB272C4E49C6}|server.csproj|d:\\packs\\college\\3course\\eduprac\\1\\server\\dto\\lessonpartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EE6B2D-0B19-306C-2C68-AB272C4E49C6}|server.csproj|solutionrelative:dto\\lessonpartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EE6B2D-0B19-306C-2C68-AB272C4E49C6}|server.csproj|d:\\packs\\college\\3course\\eduprac\\1\\server\\dto\\lessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EE6B2D-0B19-306C-2C68-AB272C4E49C6}|server.csproj|solutionrelative:dto\\lessondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EE6B2D-0B19-306C-2C68-AB272C4E49C6}|server.csproj|d:\\packs\\college\\3course\\eduprac\\1\\server\\dto\\schedulebydatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EE6B2D-0B19-306C-2C68-AB272C4E49C6}|server.csproj|solutionrelative:dto\\schedulebydatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F3EE6B2D-0B19-306C-2C68-AB272C4E49C6}|server.csproj|d:\\packs\\college\\3course\\eduprac\\1\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3EE6B2D-0B19-306C-2C68-AB272C4E49C6}|server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,11 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScheduleByDateDto.cs",
+              "DocumentMoniker": "D:\\packs\\College\\3course\\EduPrac\\1\\server\\Dto\\ScheduleByDateDto.cs",
+              "RelativeDocumentMoniker": "Dto\\ScheduleByDateDto.cs",
+              "ToolTip": "D:\\packs\\College\\3course\\EduPrac\\1\\server\\Dto\\ScheduleByDateDto.cs",
+              "RelativeToolTip": "Dto\\ScheduleByDateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:34:34.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LessonDto.cs",
+              "DocumentMoniker": "D:\\packs\\College\\3course\\EduPrac\\1\\server\\Dto\\LessonDto.cs",
+              "RelativeDocumentMoniker": "Dto\\LessonDto.cs",
+              "ToolTip": "D:\\packs\\College\\3course\\EduPrac\\1\\server\\Dto\\LessonDto.cs",
+              "RelativeToolTip": "Dto\\LessonDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:31:38.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LessonPartDto.cs",
+              "DocumentMoniker": "D:\\packs\\College\\3course\\EduPrac\\1\\server\\Dto\\LessonPartDto.cs",
+              "RelativeDocumentMoniker": "Dto\\LessonPartDto.cs",
+              "ToolTip": "D:\\packs\\College\\3course\\EduPrac\\1\\server\\Dto\\LessonPartDto.cs",
+              "RelativeToolTip": "Dto\\LessonPartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T18:29:43.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\packs\\College\\3course\\EduPrac\\1\\server\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
