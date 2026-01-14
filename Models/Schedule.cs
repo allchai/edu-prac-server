@@ -16,13 +16,13 @@ namespace server.Models
 
         [Required]
         [Column("weekday_id")]
-        public int WeekDayId { get; set; }
+        public int WeekdayId { get; set; }
 
         [ForeignKey("WeekdayId")]
         public Weekday Weekday { get; set; } = null!;
 
         [Required]
-        [Column("lessond_time_id")]
+        [Column("lesson_time_id")]
         public int LessonTimeId { get; set; }
 
         [ForeignKey("LessonTimeId")]

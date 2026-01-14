@@ -21,7 +21,7 @@ namespace server.Services
             var group = await GetGroupByName(groupName);
             var schedules = await LoadSchedules(group.GroupId, startDate, endDate);
 
-            return BuildScheduleDto(schedules);
+            return BuildScheduleDto(startDate, endDate, schedules);
         }
 
         private static void ValidateDates(DateTime start, DateTime end)
@@ -61,7 +61,7 @@ namespace server.Services
 
         private static List<ScheduleByDateDto> BuildScheduleDto(DateTime startDate, DateTime endDate, List<Schedule> schedules)
         {
-            var scheduleByDate = GroupScheduleByDate(schedules);
+            var scheduleByDate = GroupSchedulesByDate(schedules);
             var result = new List<ScheduleByDateDto>();
 
             for (var date = startDate; date <= endDate; date = date.AddDays(1))
@@ -136,7 +136,7 @@ namespace server.Services
             };
         }
 
-        private static ScheduleByDateDto BuildEmptyDatDto(DateTime date)
+        private static ScheduleByDateDto BuildEmptyDayDto(DateTime date)
         {
             return new ScheduleByDateDto
             {

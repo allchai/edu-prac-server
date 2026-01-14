@@ -22,6 +22,7 @@ namespace server.Models
         public string MiddleName { get; set; } = null!;
 
         [Required]
+        [Column("position")]
         public string Position { get; set; } = null!;
     }
 }

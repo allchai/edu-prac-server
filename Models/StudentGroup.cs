@@ -8,7 +8,7 @@ namespace server.Models
     {
         [Key]
         [Column("group_id")]
-        public int GroupID { get; set; }
+        public int GroupId { get; set; }
 
         [Required]
         [Column("group_name")]
