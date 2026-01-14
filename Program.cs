@@ -16,10 +16,11 @@ var connectionsString = $"Host={Environment.GetEnvironmentVariable("DB_HOST")};"
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(connectionsString));
 
-builder.Services.AddScoped<IScheduleServices, SchedulService>();
+builder.Services.AddScoped<IScheduleService, ScheduleService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+// For some reason I had to install Swashbuckle.AspNetCore to make this work
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
